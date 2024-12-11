@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'MRando0m/CI-CD-test'  // Клонируем ветку с репозитория
+                git branch: 'main', url: 'https://github.com/MRando0m/CI-CD-test'  // Клонируем ветку с репозитория
             }
         }
 
