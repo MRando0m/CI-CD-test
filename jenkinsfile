@@ -2,8 +2,8 @@ pipeline {
     agent any   //Пайплайн выполняется на локальных и удалённых машинах
 
     environment {
-        IMAGE_NAME = 'CI-CD-test'   //Имя докер-контейнера, -образа.
-        DOCKER_IMAGE = 'CI-CD-test:latest'
+        IMAGE_NAME = 'ci-cd-test'   //Имя докер-контейнера, -образа.
+        DOCKER_IMAGE = 'ci-cd-test:latest'
         PORT = '8080' // Порт для использования контейнером
     }
 
